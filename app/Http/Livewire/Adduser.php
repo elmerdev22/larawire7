@@ -15,7 +15,7 @@ class Adduser extends Component
 
     public function save()
     {
-    	// dd($this->photo);
+    	dd($this->photo);
         $this->validate([
             'photo' => 'image|max:1024', // 1MB Max
             'name' => 'required'

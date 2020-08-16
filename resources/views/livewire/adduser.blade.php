@@ -1,5 +1,5 @@
 <div>
-    <form class="form" wire:submit.prevent="save">
+    <form class="form" wire:submit.prevent="save" enctype="multipart/form-data">
     	<div class="form-group">
     		<label>Photo</label>
     		<input type="file" accept="image/*" wire:model.lazy="photo"><br>
